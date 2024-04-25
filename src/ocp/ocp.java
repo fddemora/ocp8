@@ -2,11 +2,12 @@
  * 
  */
 package ocp;
-import pkg.cert;
+import section1.interfaces.interface1;
+
 /**
  * 
  */
-public class ocp {
+public class ocp implements interface1{
 
 	/**
 	 * 
@@ -20,28 +21,16 @@ public class ocp {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("hello");
+		interface1.test2();
 
+	}
+
+	@Override
+	public void test1() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
 
 
-class t extends cert {
-	public t() {
-		super();
-	}
-
-	@Override
-	public void x() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void y() {
-		// TODO Auto-generated method stub
-		
-	}
-	
-}
