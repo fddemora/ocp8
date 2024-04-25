@@ -14,7 +14,7 @@
 
 <h4>Object-Orient</h4>
 
-- An interface can extnd one or more other interfaces.
+- An interface can extend one or more other interfaces.
 - An interface can't extend anything but another interface.
 - An interface can't implement another interface or class.
 
@@ -22,6 +22,7 @@
 
 - An interface must be declared with the keyword interface.
 - There is only one public interface per file.
+- Interfaces are implicitly default abstract
 - Interface types can be used polymorphically
 
   
