@@ -6,7 +6,7 @@ package section1.interfaces;
  * methods are required to be implemented as public
  */
 
-public interface interface1 {
+public interface PlaygroundInterface {
 	void test1();
 	static void test2() {
 		int x = 0;

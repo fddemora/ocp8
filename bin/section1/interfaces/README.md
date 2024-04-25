@@ -1,12 +1,8 @@
-<style>
+<h2 align=center>Interface Guide</h2>
 
-</style>
-
-<div style="text-align:center;text-decoration:underline;font-size:2em;">
-Interface Guide
-</div>
 
 
 Interface Method Rules: 
 
 Interface methods are implicitly public abstract.
+Interface methods are not abstract when using default or static. 

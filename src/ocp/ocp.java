@@ -2,12 +2,12 @@
  * 
  */
 package ocp;
-import section1.interfaces.interface1;
+import section1.interfaces.PlaygroundInterface;
 
 /**
  * 
  */
-public class ocp implements interface1{
+public class ocp implements PlaygroundInterface{
 
 	/**
 	 * 
@@ -21,7 +21,7 @@ public class ocp implements interface1{
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		interface1.test2();
+		PlaygroundInterface.test2();
 
 	}
 
