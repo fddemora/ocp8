@@ -10,7 +10,8 @@
 
 <h4>Interface Variable Rules:</h4>
 
-- All variables must be public static and final. 
+- All variables must be public static and final.
+- All variables are implicitly public static final if not declared as. 
 
 <h4>Object-Orient</h4>
 
