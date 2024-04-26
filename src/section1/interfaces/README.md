@@ -1,4 +1,4 @@
-<h2 align=center>Interface Guide</h2>
+<h2 align=center>Use Interfaces (OCP Objective 2.5)</h2>
 
 
 
