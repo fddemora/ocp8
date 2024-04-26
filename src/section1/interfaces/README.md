@@ -4,9 +4,18 @@
 
 <h4>Interface Method Rules:</h4> 
 
-- Interface methods are implicitly public abstract. <br>
-- Interface methods are not implicitly abstract when using default or static. <br>
-- Interface methods cannot be marked final, strictfb, or native. 
+- Interface methods are implicitly public abstract. 
+- Interface methods are not implicitly abstract when using default or static. 
+- Interface methods cannot be marked final, strictfb, or native.
+- Default methods are declared by using the default keyword. The default keyword can be used only with interface method signatures, not class method signatures.
+- Default methods are public by definition, and the public modifier is optional.
+- Default methods cannot be marked as private, protected, static, final, or abstract.
+- Default methods must have a concrete method body.
+- Static interface methods are declared by using the static keyword.
+- Static interface methods are public, by default, and the public modifier is optional.
+- Static interface methods cannot be marked as private, protected, final, or abstract.
+- Static interface methods must have a concrete method body.
+- When invoking a static interface body, the method's type (interface name) MUST be included in the invocation.  
 
 <h4>Interface Variable Rules:</h4>
 
